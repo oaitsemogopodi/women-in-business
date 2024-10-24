@@ -1,0 +1,138 @@
+ /* Beautiful CSS Styling */
+ body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f4ede4 0%, #f8f9fa 100%);
+    color: #4a2c2a;
+}
+
+/* Header Section */
+.header {
+    background: linear-gradient(to right, #f8d7a1, #f4ede4);
+    padding: 3rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.header h5 {
+    color: #4a2c2a;
+    font-size: 1.2rem;
+}
+
+.header p {
+    font-size: 1.1rem;
+    color: #7a7a7a;
+}
+
+/* Banner Section */
+.banner img {
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    color: #4a2c2a;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #a27c73;
+    display: block;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+}
+
+/* Payment Methods Section */
+.payment-methods img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.price, .contact-info {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4a2c2a;
+}
+
+/* Buttons Styling */
+.pay-button {
+    background-color: #4a2c2a;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s;
+    text-transform: uppercase;
+}
+
+.pay-button:hover {
+    background-color: #a27c73;
+    transform: scale(1.05);
+}
+
+.book-now {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* Card Styling */
+.card {
+    background: linear-gradient(to right, #f8d7a1, #f4ede4);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.list-group-item {
+    font-size: 1.1rem;
+    color: #4a2c2a;
+    background-color: #f8f9fa;
+    border: none;
+    
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4a2c2a;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 2%;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .pay-button, .book-now {
+        font-size: 1rem;
+    }
+}
